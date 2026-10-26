@@ -1,0 +1,101 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets.json
+credentials.json
+service-account*.json
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node.js packages and build output
+node_modules/
+.npm/
+.pnpm-store/
+.next/
+.nuxt/
+coverage/
+*.tsbuildinfo
+
+# AI/ML downloaded models, weights and generated artifacts
+models/
+checkpoints/
+outputs/
+runs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.gguf
+*.ggml
+*.tflite
+
+# RAG / vector database indexes
+chroma_db/
+chroma/
+.faiss/
+*.faiss
+*.index
+vector_store/
+vectorstore/
+
+# Local data, datasets and uploads (remove rules if tracking sample data)
+data/
+datasets/
+uploads/
+temp/
+tmp/
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
+
+# Keep dependency manifests tracked:
+# requirements.txt, pyproject.toml, uv.lock,
+# package.json, package-lock.json, yarn.lock, pnpm-lock.yaml
